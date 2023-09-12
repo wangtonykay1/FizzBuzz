@@ -41,7 +41,7 @@ class FizzBuzz {
          */
     }
 
-    private static int doFizzBuzz(int j) {
+    static int doFizzBuzz(int j) {
         // Find out which numbers divide i.
         boolean divBy3 = j % 3 == 0;
         boolean divBy5 = j % 5 == 0;
